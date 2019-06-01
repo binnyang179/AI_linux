@@ -167,3 +167,6 @@ plt.show()
 
 prediction_result = np.argmax(predictions_single[0])
 print(prediction_result)
+
+
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
