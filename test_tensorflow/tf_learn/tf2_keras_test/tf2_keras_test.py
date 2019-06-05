@@ -15,6 +15,9 @@ model.add(layers.Dense(64, activation='relu'))
 model.add(layers.Dense(10, activation='softmax'))
 
 
+
+
+
 # Create a sigmoid layer:
 layers.Dense(64, activation='sigmoid')
 # Or:
@@ -31,6 +34,9 @@ layers.Dense(64, kernel_initializer='orthogonal')
 
 # A linear layer with a bias vector initialized to 2.0s:
 layers.Dense(64, bias_initializer=tf.keras.initializers.Constant(2.0))
+
+
+
 
 
 model = tf.keras.Sequential([
